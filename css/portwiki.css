@@ -7,13 +7,22 @@ html,
 body{
 	height: 100%;
 	font-family: 'Kreon', sans-serif;
+	position: relative;
+	min-width: 500px;
 }
 
-header{ 
-	background: rgb(223, 237, 78);
+body{
+	background: url(../img/portwiki-fundo.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+header{
+	position: absolute;
+	right: 0;
+	left: 0;
+	background: rgb(145, 4, 9);	
 	display: flex;
 	justify-content: center;
-	border: solid 2px red;
 	padding: 0.6rem;
 }
 
@@ -34,30 +43,44 @@ h1 b{
 }
 
 .apresentation{
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	align-items: center;
-	border: solid 2px green;
 }
 
 .container-apresentation{
-	padding: 15px;
-	border: solid 2px black;
+	padding: 20px;
+	color: rgba(255,255,255,0.6);
+	border: solid 2px rgba(255,255,255,0.2);
 	width: 80%;
 	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+	border-radius: 12px 12px 0px 0px;
 }
 
 .container-apresentation h2{
 	margin-bottom: 15px;
+	font-size: 35px;
 	font-weight: 300;
 	text-align: center;
 }
 
 .containre-apresentation h2 b{
-	font-weight: 400;
+	font-weight: 400;	
+	color: rgba(255,255,255,0.9);
 }
 
 .container-apresentation p{
-	font-size: 18px;
+	font-size: 19px;
 	text-align: justify;
+}
+
+@media screen and (min-width: 700px){
+	body{
+
+	}
+}
+
+@media screen and (min-width: 1200px){
+
 }
