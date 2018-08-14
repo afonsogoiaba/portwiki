@@ -1,3 +1,63 @@
 *{
-	
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body{
+	height: 100%;
+	font-family: 'Kreon', sans-serif;
+}
+
+header{ 
+	background: rgb(223, 237, 78);
+	display: flex;
+	justify-content: center;
+	border: solid 2px red;
+	padding: 0.6rem;
+}
+
+.logo{
+	align-items: center;
+	display: flex;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	padding: 0.5rem;
+	font-weight: 300;
+}
+
+h1 b{
+	font-weight: 600;
+}
+
+.apresentation{
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	border: solid 2px green;
+}
+
+.container-apresentation{
+	padding: 15px;
+	border: solid 2px black;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container-apresentation h2{
+	margin-bottom: 15px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.containre-apresentation h2 b{
+	font-weight: 400;
+}
+
+.container-apresentation p{
+	font-size: 18px;
+	text-align: justify;
 }
