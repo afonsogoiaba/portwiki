@@ -7,7 +7,6 @@ html,
 body{
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
-	min-width: 500px;
 }
 
 :root{
@@ -40,7 +39,8 @@ h1 b{
 }
 
 .apresentation{
-	height: 90vh;
+	flex-direction: column;
+	height: 100%;
 	position: relative;
 	display: flex;
 	align-items: center;
