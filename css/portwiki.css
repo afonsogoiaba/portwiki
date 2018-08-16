@@ -211,6 +211,11 @@ h1 b{
 	color: rgba(0,0,0,0.9);
 }
 
+a{
+	
+	outline: none;
+}
+
 .curva-baixo{	
 	position: absolute;
 	top: 0;
@@ -242,4 +247,34 @@ footer a{
 	text-decoration: none;
 	font-size: 18px;
 	color: rgba(255,255,255,0.5);
+}
+
+@media screen and (min-width: 1200px){
+
+	.container-apresentation p{
+		width: 70%;
+	}
+
+	.cursos{
+		height: 100vh;
+	}
+
+	.cursos h1{
+		width: 25%;
+	}
+
+	.curso-html,
+	.curso-css,
+	.curso-js{
+		margin-bottom: 0;
+		margin-right: 20px;
+	}
+
+	.curva-baixo{
+		display: none;
+	}
+
+	footer{
+		height: 15vh;
+	}
 }
