@@ -11,7 +11,7 @@ body{
 
 :root{
 	--red: rgb(183, 27, 16);
-	--yellow: 	rgb(224, 215, 47);
+	--yellow:	rgb(224, 215, 47);
 }
 
 header{
@@ -43,12 +43,13 @@ h1 b{
 	height: 100%;
 	position: relative;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	background: rgba(0,0,0,0.93);
 }
 
 .container-apresentation{
-	padding: 20px;
+	width: 100%;
 	color: rgba(255,255,255,0.8);
 }
 
@@ -66,16 +67,17 @@ h1 b{
 
 .container-apresentation p{
 	font-size: 19px;
-	width: 95%;
+	width: 90%;
 	margin: 0 auto;
 	font-weight: 400;
 	text-align: justify;
 }
 
 .botoes{
-	margin-top: 20px;
+	z-index: 2;
+	margin: 20px 0px 20px 0px;
 	display: flex;
-	padding: 0.5rem;
+	padding: 1rem;
 	align-items: center;
 	justify-content: center;
 }
@@ -85,14 +87,12 @@ h1 b{
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	border-radius: 15px;
+	border-radius: 5px;
 	font-size: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
+	font-weight: 7	00;
 	background: var(--yellow);
 	margin-right: 20px;
 
-	transition: 0.2s;
 }
 
 .botoes a{
@@ -103,9 +103,8 @@ h1 b{
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	text-transform: uppercase;
 	font-size: 20px;
-	border-radius: 15px;
+	border-radius: 5px;
 	background: var(--yellow);
 }
 
@@ -129,12 +128,11 @@ h1 b{
 	flex-direction: column;
 	align-items: center;
 	height: 100%;
-	width: 100%:;
+	width: 100%;
 }
 
 .cursos h1{
 	display: block;
-	width: 45%;
 	text-align: center;
 	font-weight: 400;
 	font-size: 30px;
@@ -143,7 +141,6 @@ h1 b{
 }
 
 .curso{
-	padding: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;	
@@ -154,14 +151,15 @@ h1 b{
 .curso-js{
 	display: flex;
 	border-radius: 15px;
-	width: 400px;
+	width: 370px;
+	padding-bottom: 20px;
 	height: 600px;
 	flex-direction: column;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	background: rgba(0,0,0,0.87);
-	margin: 15px;	
+	margin-bottom: 15px;	
 }
 
 .top-html h2,
@@ -206,7 +204,7 @@ h1 b{
 .curso-css a,
 .curso-js a{
 	padding: 20px 30px;
-	border-radius: 15px;	
+	border-radius: 8px;	
 	font-size: 20px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -255,19 +253,74 @@ footer a{
 
 @media screen and (min-width: 1200px){
 
+	.apresentation{
+		height: 90vh;
+	}
+
+	.container-apresentation h2{
+		font-size: 2.5rem;
+	}
 	.container-apresentation p{
 		width: 70%;
+		font-size: 1.2rem;	
+	}
+
+	.botoes .button{
+		font-size: 24px;
+		width: 200px;
+		height: 70px;
+		line-height: 70px;
+		border: solid 2px rgba(255,255,255,0.8);
+	}
+
+	.botoes a{
+		font-size: 24px;
+		width: 220px;
+		height: 70px;
+		line-height: 70px;
+		border: solid 2px rgba(255,255,255,0.8);
+	}
+
+	.cursos{
+		height: 100vh;
 	}
 
 	.cursos h1{
 		width: 25%;
+		font-size: 2.2rem;
 	}
 
 	.curso-html,
 	.curso-css,
 	.curso-js{
-		margin-bottom: 0;
-		margin-right: 20px;
+		width: 470px;
+		height: 640px;
+		margin-bottom: 50px;
+		margin-right: 10px;
+	}
+
+	.curso-html h2,
+	.curso-css h2,
+	.curso-js h2{
+		font-size: 1.8rem;
+	}
+
+	.curso-js h2{
+		width: 85%;
+	}
+
+	.curso-html p,
+	.curso-css p,
+	.curso-js p{
+		font-size: 1.2rem;
+	}
+
+	.curso-html a,
+	.curso-css a,
+	.curso-js a{
+		font-size: 24px;
+		border: solid 2px rgba(255,255,255,0.8);
+
 	}
 
 	.curva-baixo{
