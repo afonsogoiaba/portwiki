@@ -57,6 +57,7 @@ form a{
 
 input{
   padding: 0.5rem;
+  outline: none;
 }
 
 @media screen and (min-width: 700px){
