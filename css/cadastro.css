@@ -9,16 +9,6 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-body{
-  position: relative;
-}
-
-header{
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
 .main{
   height: 100vh;
   display: flex;
