@@ -298,17 +298,15 @@ footer a{
 	.curso-css,
 	.curso-js{
 		width: 350px;
-		margin-right: 30px;
+		margin-right: 20px;
 		box-shadow: 4px 4px 20px rgb(0, 0, 0);
 	}
-	.curso-html,
-	.curso-css,
 	.curso-js{
-		margin-right:0; 
+		margin-left:0; 
 	}
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1300px){
 
 	.container-apresentation{
 		width: 60%;
