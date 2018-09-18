@@ -59,11 +59,6 @@ header{
   top: 0;
   z-index: 1;
   width: 0;
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  
   overflow-x: hidden;
   transition: var(--transition3);
 }
