@@ -66,7 +66,9 @@ input{
 
 .container-entradaa{
   text-align: center;
-  margin: 10px;
+  margin: 10px auto;
+  width: 70%;
+
 }
 
 .container-entradaa a{
