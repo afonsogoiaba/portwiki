@@ -52,7 +52,12 @@ h1 b{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(0,0,0,0.93);
+	
+	background: url(../img/talvez.jpg) no-repeat center center;
+	-webkit-bacground-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .container-apresentation{
@@ -101,7 +106,7 @@ h1 b{
 	opacity: 0.8;
 	margin-bottom: 10px;
 	padding: 0px 8px 0px 8px;
-
+	border-radius: 4px;
 }
 
 .botoes a{
@@ -116,6 +121,7 @@ h1 b{
 	opacity: 0.8;
 	border: solid 2px var(--yellow);
 	margin-bottom: 20px;
+	border-radius: 4px;
 }
 
 .curve{
@@ -258,13 +264,17 @@ footer a{
 }
 
 @media screen and (min-width: 700px){
-
+	
 	.logo h1{
 		font-size: 24px;
 	}
 
 	.apresentation{
-		height: 92vh;
+		height: 100vh;
+	}
+
+	.curve{
+		display: none;
 	}
 
 	.container-apresentation h2{
@@ -273,7 +283,7 @@ footer a{
 
 	.container-apresentation p{
 		font-size: 1rem;
-		width: 80%;
+		width: 60%;
 	}
 
 	.botoes{
@@ -318,7 +328,7 @@ footer a{
 	}
 
 	.container-apresentation p{
-		width: 90%;
+		width: 85%;
 		font-size: 1.1rem;
 		color: rgba(255,255,255,0.9);
 	}
