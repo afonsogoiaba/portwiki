@@ -18,55 +18,31 @@ body{
 
 .form_cadast{
   box-shadow: 0px 3px 30px rgba(0,0,0,0.25);
-  padding: 1.5rem;
-  width: 80%;
-  margin: 30px; 
+  padding: 30px 0px 30px 0px;
 }
 
 .form_cadast h2{
   text-align: center;
+  
+  margin: 0 auto;
   margin-bottom: 20px;
-  font-weight: 400;
-}
-
-.container-btn{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.btn_cadastro{
-  width: 40%;
-  border-radius: 4px;
-  margin: 10px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background: var(--yellow);
-  color: rgba(0,0,0,0.9);
-  box-shadow: 1px 3px 8px rgba(0,0,0,0.45);
-  border: solid 1px rgb(92, 92, 91);
-}
-
-.btn_acesso{
-  width: 60%;
-  display: block;
-  margin-top: 10px;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-left: 10px;
-  text-align: center;
-  color: rgba(0,0,0);
-}
+  font-weight: 100;
+  font-size: 1.3rem;
+  width: 50%;
+  text-transform: uppercase;
+  }
 
 .container-entrada{
+  width: 80%;
+  margin: auto;
   display: flex;  
   flex-direction: column;
-  padding: 0.5rem;
+  padding: 0.45rem;
+}
+
+.container-entradaa{
+  text-align: center;
+  margin: 10px;
 }
 
 .container-entrada label{
@@ -76,6 +52,17 @@ body{
 input{
   padding: 0.5rem;
   outline: none;
+}
+
+.container-entrada a{
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background: var(--yellow);
+  color: rgba(0,0,0,0.9);
 }
 
 @media screen and (min-width: 700px){
